@@ -1,4 +1,5 @@
- public static void main(String[] args) {
+public class NewClass {
+    public static void main(String[] args) {
           
     Scanner imput = new Scanner (System.in);
     System.out.println ("ingrese codigo ") ;
@@ -6,14 +7,14 @@
     
     System.out.println ("ingrese contraseña ") ;
     int contr = imput.nextInt ();
-    while ((code != 1024) && (contr != 4567)){
-        System.out.println("vuelva a ingresar codigo");
+    while ((code != 0000) || (contr != 0000)){
+        System.out.println("invalido vuelva a ingresar codigo");
         code = imput.nextInt();
-        System.out.println("vuelva a ingresar contraseña");
+        System.out.println("invalido vuelva a ingresar contraseña");
         contr = imput.nextInt ();
         
     }
-    System.out.println ("ingreso correcto ") ;
+    System.out.println ("valido ingreso correcto ") ;
    
     
    
